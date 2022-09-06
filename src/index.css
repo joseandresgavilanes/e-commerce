@@ -1,0 +1,73 @@
+/* google fonts */
+/* 
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+ */
+
+
+/* ======== google fonts ========= */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap");
+
+/* ======== css variables ============ */
+:root {
+
+  --primary-color: #a1ff69;
+  --secondary-color: #22343efb;
+  --heading-color: #fff;
+  --body-bg: #13252f;
+  --small-text-color: #acb2b2;
+  --font-name: "Montserrat", sans-serif;
+  --card-bg: #152833;
+}
+
+
+
+/* reset default style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* base style */
+
+body {
+  background: var(--body-bg);
+  font-family: var(--font-name);
+  color: var(--heading-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-name)
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+h1,
+h2 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+section {
+  padding: 60px 0px;
+}
+
+img{
+  width: 100%;
+}
+
+li, ul{
+  list-style-type: none;
+  text-decoration: none;
+}
