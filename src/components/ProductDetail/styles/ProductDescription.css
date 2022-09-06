@@ -285,3 +285,66 @@ h4.dis span {
 .arrow{
     font-size: 20px;
 }
+
+
+
+@media (max-width:800px) {
+  .product-description__main-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    .product-info__card {
+        align-items: center;
+        justify-content: center;
+        /* url(https://www.dropbox.com/s/fuadz3vmw2nsylm/bg.png?raw=1) */
+        background: #1c2f3b no-repeat;
+        height: 1000px;
+        width: 90%;
+        box-shadow: 0px 15px 50px 10px rba(0, 0, 0, 0.4);
+        margin-top: 30px;
+        border-radius: 0%;
+        display: flex;
+        flex-direction: column;
+      }
+
+    .product-info__left {
+      content: "";
+      width: 100%;
+      display: flex;
+      align-items: center;
+      background-color: var(--heading-color);
+      margin: 0px;
+      border-radius: 10% 50% 50% 10%;
+      position: relative;
+      z-index: 5;
+      justify-content: center;
+    }
+
+
+    .product-info__right {
+      display: flex;
+      content: "";
+      height: 50%;
+      width: 100%;
+      background-color: #1c2f3b ;
+      z-index: 3;
+      margin: 0px;
+      margin-top: 30px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .product-info__content {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      margin-left: 0px;
+      height: 100%;
+      padding: 0 10px;
+      width: 90%;
+      z-index: 10;
+  }
+  
+}

@@ -18,7 +18,7 @@ const ProductDetail = () => {
   }, [])
   
   return (
-    <div>
+    <div className="product-description__main-container" >
       <ProductDescription productInfo={productInfo} />
     </div>
   )
