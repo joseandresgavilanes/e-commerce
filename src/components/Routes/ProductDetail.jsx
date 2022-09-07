@@ -4,6 +4,7 @@ import { useState } from 'react'
 import {useParams} from "react-router-dom"
 import axios from "axios"
 import ProductDescription from '../ProductDetail/ProductDescription'
+import SimilarProducts from '../ProductDetail/SimilarProducts'
 
 const ProductDetail = () => {
 
@@ -20,6 +21,9 @@ const ProductDetail = () => {
   return (
     <div className="product-description__main-container" >
       <ProductDescription productInfo={productInfo} />
+      <SimilarProducts
+        productInfo={productInfo}
+      />
     </div>
   )
 }

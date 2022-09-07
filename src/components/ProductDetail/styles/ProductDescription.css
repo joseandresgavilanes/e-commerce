@@ -288,13 +288,20 @@ h4.dis span {
 
 
 
+.product-description__main-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3em;
+  margin-bottom: 80px;
+}
+
+
 @media (max-width:800px) {
-  .product-description__main-container{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
+  
+
     .product-info__card {
         align-items: center;
         justify-content: center;
