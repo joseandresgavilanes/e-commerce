@@ -8,7 +8,7 @@ const WhyUs = () => {
       <img src="/public/images/k.svg" alt="" className="whyUs__img" />
       <div className="whyUs__info">
         <h2 className="whyUs__title">
-          Why <span>Taty Treat?</span>
+          Why <span>US?</span>
           </h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quam exercitationem commodi officia, totam in provident id suscipit iure quae.</p>
         <ul className="whyUs__list">

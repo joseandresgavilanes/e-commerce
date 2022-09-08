@@ -7,17 +7,17 @@ const MainInfoHome = () => {
     <section className='header__info' >
       <div className="header__info-content">
         <h3>
-          Easy way to make an order
+          Easiest way to buy a product
         </h3>
         <h2 className='header__info-title'>
-           <span>HUNGRY?</span> Just wait food at <span>your door</span> 
+           <span>Products?</span> Just wait them at <span>your door</span> 
         </h2>
         <p className='header__info-text' >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magni delectus tenetur autem, sint veritatis!
         </p>
         <div className="header__info-btns">
           <button>Order</button>
-          <button>Order</button>
+          <button>Contact</button>
         </div>
         <div className="header__info-trust">
           <div>

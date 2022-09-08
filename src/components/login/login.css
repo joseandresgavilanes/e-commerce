@@ -1,4 +1,9 @@
-
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
 
     .login__container{
         min-height: 85vh;

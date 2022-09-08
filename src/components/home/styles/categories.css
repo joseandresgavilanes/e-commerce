@@ -38,6 +38,10 @@
 }
 
 
+.categories__item:hover{
+    transform: scaleY(1.1);
+}
+
 @media (min-width: 800px){
     .categories__item{
         width: 20%;

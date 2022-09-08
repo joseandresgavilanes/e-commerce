@@ -6,7 +6,7 @@ const HomeExtraDetails = () => {
   return (
     <section className='features'>
          <div className="feature">
-              <h5 className="feature__subtitle">What we serve</h5>
+              <h5 className="feature__subtitle">What we offer</h5>
               <h2 className="feature__title">Just sit back at home</h2>
               <h2 className="feature__title">
                 we will <span>take care</span>

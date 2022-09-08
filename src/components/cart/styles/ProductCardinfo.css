@@ -1,12 +1,11 @@
 .cart__item{
   width: 100%;
-  max-width: 400px;
   display: grid;
   grid-template-columns: 1fr 80px;
   row-gap: 20px;
   padding: 20px;
   border-radius: 10px;
-  background-color: white;
+  background-color:  var(--heading-color);
   box-shadow: 0 0 10px #0005;
 }
 .cart__item-header{
@@ -18,20 +17,23 @@
   font-weight: 300;
 }
 .cart__name {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
 }
 .cart__trash{
-  color: var(--color-red);
+  color:rgb(233, 111, 111);
   grid-column: end;
   font-size: 16px;
   cursor: pointer;
 }
 .cart__quantity {
   padding: 2px 20px;
+  border-radius: 5px;
   align-self: end;
-  border: 1px solid #ccca;
+  border: 1px solid var(--secondary-color);
   width: max-content;
+  color: var(--secondary-color);
+  font-weight: 700;
 }
 .cart__item-footer{
   display: flex;

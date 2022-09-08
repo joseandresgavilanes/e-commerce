@@ -1,32 +1,165 @@
 .form-logout{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px #0003;
+ 
+  position: relative;
+ 
+}
+
+.all {
+   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: max-content;
+  height: 350px;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 20px;
+    background: var(--secondary-color);
+  box-shadow: 0 0 10px #0003;
+  z-index: 150;
+  position: relative;
+}
+
+.form-logout__username{
+font-weight: bold;
+}
+
+.form-logout__icon{
+  width: 100px;
+  height: 100px;
+  font-size: 60px;
+  color: #aaa;
+  border: 1px solid white;
+  padding: .4em;
+  border-radius: 50%;
+}
+.form-logout__check{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  font-size: 15px;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+}
+
+
+
+.form-logout__btn {
+width: 6em;
+padding: 12px 15px;
+font-weight: bold;
+border-radius: 5px;
+font-size: 14px;
+font-family: inherit;
+border: none;
+position: relative;
+overflow: hidden;
+z-index: 1;
+cursor: pointer;
+}
+
+.form-logout__btn::before {
+content: '';
+width: 0;
+height: 3em;
+border-radius: 5px;
+position: absolute;
+top: 0;
+left: 0;
+background-image: linear-gradient(to right, #77e299 0%, #f9f047 100%);
+transition: .5s ease;
+display: block;
+z-index: -1;
+}
+
+.form-logout__btn:hover::before {
+width: 9em;
+}
+
+
+
+ @keyframes move-up61 {
+  to {
+    transform: translateY(-10px);
+    transform: translateX(30px);
   }
-  .form-logout__icon{
-    font-size: 60px;
-    color: #aaa;
+}
+
+@keyframes move-down12 {
+  to {
+    transform: translateY(10px);
+    transform: translateX(-30px);
   }
-  .form-logout__check{
-    font-size: 40px;
-    color: limegreen;
-  }
-  .form-logout__btn{
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid blue;
-    color: blue;
-    padding: 0;
-    cursor: pointer;
-    font-size: 16px;
-    transition: transform 100ms ease;
-  }
-  .form-logout__btn:hover {
-    transform: scale(1.1);
-    transition: transform 100ms ease;
-  }
+}
+
+@media (min-width:1000px) {
+.form-logout .circle {
+ 
+  background: radial-gradient(#b4d814, #6af08e);
+  border-radius: 50%;
+  position: absolute;
+  animation: move-up61 2s ease-in infinite alternate-reverse;
+}
+
+.form-logout .circle:nth-child(1) {
+width: 50px;
+  height:50px;
+  top: 0px;
+  left: -150px;
+  z-index: 10;
+}
+
+.form-logout .circle:nth-child(2) {
+  width: 50px;
+  height:50px;
+position: absolute;
+ top:  150px;
+  left: -60px;
+  z-index: 10;
+  animation-name: move-down12;
+}
+
+.form-logout .circle:nth-child(3) {
+  width: 50px;
+  height:50px;
+  bottom: -50px;
+  right:  -50px;
+   border-radius:56px;
+  z-index: 10;
+}
+
+.form-logout .circle:nth-child(4) {
+  width: 50px;
+  height:50px;
+border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  bottom: px;
+  right:  -220px;
+   border-radius:56px;
+  z-index: 10;
+}
+
+  .form-logout .circle:nth-child(5) {
+    width: 50px;
+    height:50px;
+border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  bottom: 0px;
+  left:  -260px;
+   border-radius:56px;
+  z-index: 10;
+}
+}
+
+
+@media (max-width: 1000px) {
+
+
+.form-logout .circle {
+    display: none;
+}
+    
+}
+
