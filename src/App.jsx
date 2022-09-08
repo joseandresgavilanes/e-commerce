@@ -9,7 +9,7 @@ import Header from './components/shared/Header'
 import { useEffect } from 'react'
 import ProtectedRoutes from '../src/components/Routes/ProtectedRoutes'
 import { useDispatch } from 'react-redux'
-import { getAllProducts } from './store/slices/products.slice'
+import { getAllProducts } from './store/Slices/products.slice'
 
 
 function App() {
