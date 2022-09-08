@@ -21,7 +21,7 @@ const HomeExtraDetails = () => {
         <ul className="feature__list">
           <li className="feature__item">
               <img
-              src="/public/images/g.svg"
+              src="/images/g.svg"
               alt="feature-img"
               className="feature__img"
               />
@@ -30,7 +30,7 @@ const HomeExtraDetails = () => {
           </li>
           <li className="feature__item">
               <img
-              src="/public/images/l.svg"
+              src="/images/l.svg"
               alt="feature-img"
               className="feature__img"
               />
@@ -39,7 +39,7 @@ const HomeExtraDetails = () => {
           </li>
           <li className="feature__item">
               <img
-              src="/public/images/b.svg"
+              src="/images/b.svg"
               alt="feature-img"
               className="feature__img"
               />

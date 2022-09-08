@@ -30,7 +30,7 @@ const MainInfoHome = () => {
           </div>
         </div>
       </div>
-      <img className='header__info-img' src="/public/images/e.svg" alt="" />
+      <img className='header__info-img' src="/images/e.svg" alt="" />
     </section>
   )
 }

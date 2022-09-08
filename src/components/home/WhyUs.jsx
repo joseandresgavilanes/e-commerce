@@ -5,7 +5,7 @@ import "../home/styles/whyUs.css"
 const WhyUs = () => {
   return (
     <section className="whyUs">
-      <img src="/public/images/k.svg" alt="" className="whyUs__img" />
+      <img src="/images/k.svg" alt="" className="whyUs__img" />
       <div className="whyUs__info">
         <h2 className="whyUs__title">
           Why <span>US?</span>
