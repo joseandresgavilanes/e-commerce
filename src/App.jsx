@@ -7,7 +7,7 @@ import Purchases from './components/Routes/Purchases'
 import Cart from './components/Routes/Cart'
 import Header from './components/shared/Header'
 import { useEffect } from 'react'
-import ProtectedRoutes from './components/routes/ProtectedRoutes'
+import ProtectedRoutes from '../src/components/Routes/ProtectedRoutes'
 import { useDispatch } from 'react-redux'
 import { getAllProducts } from './store/slices/products.slice'
 
